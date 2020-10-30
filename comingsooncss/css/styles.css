@@ -82,29 +82,14 @@ b.light-color{ color: #444; }
 --------------------------------- */
 
 .center-text{ text-align: center; } 
-
-.display-table{ display: table; height: 100%; width: 100%; }
-
-.display-table-cell{ display: table-cell; vertical-align: middle; }
-
-
-
-::-webkit-input-placeholder { font-size: .9em; letter-spacing: 1px; }
-
-::-moz-placeholder { font-size: .9em; letter-spacing: 1px; }
-
-:-ms-input-placeholder { font-size: .9em; letter-spacing: 1px; }
-
-:-moz-placeholder { font-size: .9em; letter-spacing: 1px; }
-
-
-.full-height{ height: 100%; }
-
-.position-static{ position: static; }
-
-.font-white{ color: #fff; }
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+*, *:before, *:after{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+    ;
+}
 /* ---------------------------------
 3. MAIN SECTION
 --------------------------------- */
